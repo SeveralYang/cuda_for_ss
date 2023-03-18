@@ -272,7 +272,7 @@ def selective_search_with_cuda(
     # ==========step2==========
     tex_grad = _calc_texture_gradient(img)
     tt2 = time()
-    print(f"GPU time step2: {tt2 - tt1}")
+    print(f"CPU time step2: {tt2 - tt1}")
 
     # ==========数据转换=========
     R = {}
